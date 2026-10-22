@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "ticker": "VTI",
+      "source": "https://finance.yahoo.com/quote/VTI/history/",
+      "field": "Adj Close",
+      "retrieved_utc": "2026-10-22T20:54:58.664158+00:00",
+      "method": "daily adjusted close, last available observation per calendar month; split/dividend-adjustment provider-defined"
+    },
+    {
+      "ticker": "BND",
+      "source": "https://finance.yahoo.com/quote/BND/history/",
+      "field": "Adj Close",
+      "retrieved_utc": "2026-10-22T20:54:58.991161+00:00",
+      "method": "daily adjusted close, last available observation per calendar month; split/dividend-adjustment provider-defined"
+    },
+    {
+      "ticker": "SGOV",
+      "source": "https://finance.yahoo.com/quote/SGOV/history/",
+      "field": "Adj Close",
+      "retrieved_utc": "2026-10-22T20:54:59.255810+00:00",
+      "method": "daily adjusted close, last available observation per calendar month; split/dividend-adjustment provider-defined"
+    }
+  ],
+  "start": "2021-09",
+  "end": "2026-09",
+  "price_rows": 61,
+  "sha256": "09da5fa8c6b32752eade302268f07b16049640f66d23e4040bb7efabb6881c3e"
+}

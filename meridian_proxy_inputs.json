@@ -1,0 +1,64 @@
+{
+  "status": "MARKET_PROXY_PRACTICE_ONLY_NOT_COURSE_TABLE",
+  "source": "Five years of downloaded ETF adjusted closes; see Lab14 four_sleeve source metadata. Not calibrated to known answers.",
+  "labels": [
+    "Bills",
+    "10-year note",
+    "IG bonds",
+    "Equity"
+  ],
+  "tickers": [
+    "SGOV",
+    "IEF",
+    "LQD",
+    "VTI"
+  ],
+  "returns": [
+    0.037150657246239074,
+    -0.017887128183551718,
+    -0.008059954930895218,
+    0.13134229250923923
+  ],
+  "volatilities": [
+    0.004988853203873772,
+    0.07653855551344389,
+    0.09788364263858174,
+    0.15937120354191284
+  ],
+  "correlations": [
+    [
+      0.9999999999999999,
+      0.1955766135280689,
+      0.24033226136941926,
+      0.17248502851001876
+    ],
+    [
+      0.1955766135280689,
+      0.9999999999999999,
+      0.9338016076901514,
+      0.5411698165503797
+    ],
+    [
+      0.24033226136941926,
+      0.9338016076901514,
+      1.0000000000000002,
+      0.7191792513295049
+    ],
+    [
+      0.17248502851001876,
+      0.5411698165503797,
+      0.7191792513295049,
+      1.0
+    ]
+  ],
+  "reserve_eligible": [
+    true,
+    true,
+    false,
+    false
+  ],
+  "units": "annual decimal historical estimates",
+  "observations": 60,
+  "source_sha256": "231bc409319db060cdb7dcbcec36c09a4cebc0d6f93beb22b90c75e0ebe3e3c2",
+  "note": "IEF is a 7\u201310yr fund, not a single10yr note; ETF reserve eligibility is a practice assumption. Original Meridian reference outputs remain unverified."
+}

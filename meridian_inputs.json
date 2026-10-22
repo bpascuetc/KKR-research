@@ -1,0 +1,22 @@
+{
+  "status": "ACTUAL_COURSE_TABLE_REQUIRED",
+  "source": "Updated Lab15 screenshots refer to four-sleeve Lab14 tables; not supplied in saved workspace",
+  "labels": [
+    "Bills",
+    "10-year note",
+    "IG bonds",
+    "Equity"
+  ],
+  "returns": null,
+  "volatilities": null,
+  "correlations": null,
+  "reserve_eligible": [
+    true,
+    true,
+    false,
+    false
+  ],
+  "units": "Annual decimal returns and volatilities; decimal correlations",
+  "student_verification_status": "STUDENT_CONFIRMED_VERIFIED",
+  "student_verification_note": "Bernat explicitly confirms Meridian verified. Recorded as student confirmation; source course table and independent run evidence were not supplied to the assistant."
+}

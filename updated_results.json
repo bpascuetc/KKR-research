@@ -1,0 +1,526 @@
+{
+  "version": "updated_streamlit_lab15",
+  "meridian": {
+    "status": "BLOCKED_MISSING_COURSE_TABLE",
+    "reason": "The four-sleeve Lab14 table is missing. Supply actual returns, volatilities and correlations in meridian_inputs.json."
+  },
+  "project2": {
+    "one_point_lower_VTI": {
+      "weights": [
+        0.35,
+        0.0,
+        0.65
+      ],
+      "return": 0.066617741836442,
+      "volatility": 0.056429702721501204,
+      "reserve_weight": 0.65,
+      "grid_mixes": 231,
+      "feasible_mixes": 61
+    },
+    "one_point_largest_change_pp": 4.999999999999999,
+    "status": "EXECUTED_DIAGNOSTIC_ONLY",
+    "mandate": {
+      "status": "STUDENT_CONFIRMED_PROJECT2_MANDATE",
+      "tickers": [
+        "VTI",
+        "BND",
+        "SGOV"
+      ],
+      "decision_user": "Student Project2 portfolio decision",
+      "horizon": "Seven-year policy horizon, student-confirmed mandate",
+      "benchmark": "60%VTI/40%BND diagnostic benchmark; distinct from Meridian global-equity benchmark",
+      "objective_annual_decimal": 0.065,
+      "hard_constraint": "At least3%SGOVreserve weight; long-only and fully invested",
+      "reserve_minimum": 0.03,
+      "reserve_eligible": [
+        false,
+        false,
+        true
+      ],
+      "note": "Bernat explicitly confirmed the Project2 mandate October22,2026. This supersedes prior proposed/unapproved status. Recorded as student confirmation, not an independently documented CIO approval."
+    },
+    "all_month_estimates": {
+      "labels": [
+        "VTI",
+        "BND",
+        "SGOV"
+      ],
+      "returns": [
+        0.1313422939107574,
+        -0.0042278439966903615,
+        0.037150675334887535
+      ],
+      "volatilities": [
+        0.15937121072214694,
+        0.06454802609994725,
+        0.004988798940160169
+      ],
+      "correlations": [
+        [
+          1.0000000000000002,
+          0.6337114623208469,
+          0.17248091938706214
+        ],
+        [
+          0.6337114623208469,
+          1.0,
+          0.25858925824127804
+        ],
+        [
+          0.17248091938706214,
+          0.25858925824127804,
+          1.0000000000000002
+        ]
+      ],
+      "covariance": [
+        [
+          0.025399182807042966,
+          0.006519051326805703,
+          0.00013713456449149502
+        ],
+        [
+          0.006519051326805703,
+          0.004166447673399472,
+          8.327016928705237e-05
+        ],
+        [
+          0.00013713456449149502,
+          8.327016928705237e-05,
+          2.4888114865343233e-05
+        ]
+      ],
+      "observations": 60,
+      "price_start": "2021-09-30",
+      "price_end": "2026-09-30",
+      "estimate_label": "Historical estimate, not a forecast",
+      "price_rows": 61
+    },
+    "last36_estimates": {
+      "labels": [
+        "VTI",
+        "BND",
+        "SGOV"
+      ],
+      "returns": [
+        0.21114086777780972,
+        0.041045829885494656,
+        0.04439961526210667
+      ],
+      "volatilities": [
+        0.12856350880208633,
+        0.05498704146130026,
+        0.0021279788722482324
+      ],
+      "correlations": [
+        [
+          1.0,
+          0.5231930059057862,
+          0.17481598931689077
+        ],
+        [
+          0.5231930059057862,
+          1.0000000000000002,
+          0.20411120541434583
+        ],
+        [
+          0.17481598931689077,
+          0.20411120541434583,
+          1.0
+        ]
+      ],
+      "covariance": [
+        [
+          0.01652857579550413,
+          0.003698622437059018,
+          4.7826233610867744e-05
+        ],
+        [
+          0.003698622437059018,
+          0.0030235747286667543,
+          2.3883309831252134e-05
+        ],
+        [
+          4.7826233610867744e-05,
+          2.3883309831252134e-05,
+          4.528294080734859e-06
+        ]
+      ],
+      "observations": 36,
+      "price_start": "2023-09-30",
+      "price_end": "2026-09-30",
+      "estimate_label": "Historical estimate, not a forecast",
+      "price_rows": 61
+    },
+    "all_months": {
+      "weights": [
+        0.3,
+        0.0,
+        0.7
+      ],
+      "return": 0.06540816090764849,
+      "volatility": 0.04853574091331369,
+      "reserve_weight": 0.7,
+      "grid_mixes": 231,
+      "feasible_mixes": 72
+    },
+    "last36": {
+      "weights": [
+        0.15,
+        0.0,
+        0.85
+      ],
+      "return": 0.06941080313946213,
+      "volatility": 0.019681471932834323,
+      "reserve_weight": 0.85,
+      "grid_mixes": 231,
+      "feasible_mixes": 153
+    },
+    "largest_change_pp": 15.000000000000002,
+    "reserve_plus5pp": {
+      "weights": [
+        0.3,
+        0.0,
+        0.7
+      ],
+      "return": 0.06540816090764849,
+      "volatility": 0.04853574091331369,
+      "reserve_weight": 0.7,
+      "grid_mixes": 231,
+      "feasible_mixes": 62
+    },
+    "flat_annual_cost25bp": {
+      "weights": [
+        0.35,
+        0.0,
+        0.65
+      ],
+      "return": 0.06761774183644198,
+      "volatility": 0.056429702721501204,
+      "reserve_weight": 0.65,
+      "grid_mixes": 231,
+      "feasible_mixes": 66
+    }
+  },
+  "four_sleeve_practice": {
+    "status": "MARKET_PROXY_PRACTICE_ONLY_NOT_COURSE_TABLE",
+    "source": {
+      "sources": [
+        {
+          "ticker": "SGOV",
+          "source": "https://finance.yahoo.com/quote/SGOV/history/",
+          "field": "Adj Close",
+          "retrieved_utc": "2026-10-22T21:00:42.596385+00:00",
+          "method": "daily adjusted close, last available observation per calendar month; split/dividend-adjustment provider-defined"
+        },
+        {
+          "ticker": "IEF",
+          "source": "https://finance.yahoo.com/quote/IEF/history/",
+          "field": "Adj Close",
+          "retrieved_utc": "2026-10-22T21:00:42.897154+00:00",
+          "method": "daily adjusted close, last available observation per calendar month; split/dividend-adjustment provider-defined"
+        },
+        {
+          "ticker": "LQD",
+          "source": "https://finance.yahoo.com/quote/LQD/history/",
+          "field": "Adj Close",
+          "retrieved_utc": "2026-10-22T21:00:43.218976+00:00",
+          "method": "daily adjusted close, last available observation per calendar month; split/dividend-adjustment provider-defined"
+        },
+        {
+          "ticker": "VTI",
+          "source": "https://finance.yahoo.com/quote/VTI/history/",
+          "field": "Adj Close",
+          "retrieved_utc": "2026-10-22T21:00:43.436380+00:00",
+          "method": "daily adjusted close, last available observation per calendar month; split/dividend-adjustment provider-defined"
+        }
+      ],
+      "start": "2021-09",
+      "end": "2026-09",
+      "price_rows": 61,
+      "sha256": "231bc409319db060cdb7dcbcec36c09a4cebc0d6f93beb22b90c75e0ebe3e3c2"
+    },
+    "full_estimates": {
+      "labels": [
+        "SGOV",
+        "IEF",
+        "LQD",
+        "VTI"
+      ],
+      "returns": [
+        0.037150657246239074,
+        -0.017887128183551718,
+        -0.008059954930895218,
+        0.13134229250923923
+      ],
+      "volatilities": [
+        0.004988853203873772,
+        0.07653855551344389,
+        0.09788364263858174,
+        0.15937120354191284
+      ],
+      "correlations": [
+        [
+          0.9999999999999999,
+          0.1955766135280689,
+          0.24033226136941926,
+          0.17248502851001876
+        ],
+        [
+          0.1955766135280689,
+          0.9999999999999999,
+          0.9338016076901514,
+          0.5411698165503797
+        ],
+        [
+          0.24033226136941926,
+          0.9338016076901514,
+          1.0000000000000002,
+          0.7191792513295049
+        ],
+        [
+          0.17248502851001876,
+          0.5411698165503797,
+          0.7191792513295049,
+          1.0
+        ]
+      ],
+      "covariance": [
+        [
+          2.4888656289801593e-05,
+          7.467889937838728e-05,
+          0.00011736076204324378,
+          0.00013713931702032933
+        ],
+        [
+          7.467889937838728e-05,
+          0.0058581504800845315,
+          0.006995922693385044,
+          0.006601211994224051
+        ],
+        [
+          0.00011736076204324378,
+          0.006995922693385044,
+          0.009581207496197577,
+          0.011219076889790049
+        ],
+        [
+          0.00013713931702032933,
+          0.006601211994224051,
+          0.011219076889790049,
+          0.02539918051839781
+        ]
+      ],
+      "observations": 60,
+      "price_start": "2021-09-30",
+      "price_end": "2026-09-30",
+      "estimate_label": "Historical estimate, not a forecast",
+      "price_rows": 61
+    },
+    "last36_estimates": {
+      "labels": [
+        "SGOV",
+        "IEF",
+        "LQD",
+        "VTI"
+      ],
+      "returns": [
+        0.04439955714131731,
+        0.0306955610843442,
+        0.04842841388573205,
+        0.21114089874739322
+      ],
+      "volatilities": [
+        0.0021279637419064786,
+        0.06660181977040594,
+        0.07822463133905386,
+        0.128563553124917
+      ],
+      "correlations": [
+        [
+          1.0,
+          0.16993520858918257,
+          0.21272599583179738,
+          0.17482520356811165
+        ],
+        [
+          0.16993520858918257,
+          1.0000000000000002,
+          0.9355872748572742,
+          0.4374195718120012
+        ],
+        [
+          0.21272599583179738,
+          0.9355872748572742,
+          1.0000000000000002,
+          0.6070580628822372
+        ],
+        [
+          0.17482520356811165,
+          0.4374195718120012,
+          0.6070580628822372,
+          0.9999999999999998
+        ]
+      ],
+      "covariance": [
+        [
+          4.5282296868686226e-06,
+          2.4084281150609523e-05,
+          3.541019466353708e-05,
+          4.7828430867034126e-05
+        ],
+        [
+          2.4084281150609523e-05,
+          0.004435802396729636,
+          0.004874318761098994,
+          0.0037454342132767736
+        ],
+        [
+          3.541019466353708e-05,
+          0.004874318761098994,
+          0.006119092948130888,
+          0.006105083712845244
+        ],
+        [
+          4.7828430867034126e-05,
+          0.0037454342132767736,
+          0.006105083712845244,
+          0.01652858719210335
+        ]
+      ],
+      "observations": 36,
+      "price_start": "2023-09-30",
+      "price_end": "2026-09-30",
+      "estimate_label": "Historical estimate, not a forecast",
+      "price_rows": 61
+    },
+    "baseline": {
+      "equal_weight": {
+        "weights": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "annualized_mean": 0.03563646666025784,
+        "annualized_volatility": 0.07547938802359055,
+        "reserve_proxy_weight": 0.5,
+        "direct_variance": 0.005697138016415746,
+        "matrix_variance": 0.0056971380164157455
+      },
+      "inverse_volatility": {
+        "weights": [
+          0.8714965672196187,
+          0.05680494506817429,
+          0.044417722147835924,
+          0.027280765564371073
+        ],
+        "annualized_mean": 0.034585706378142976,
+        "annualized_volatility": 0.013474637986116223,
+        "reserve_proxy_weight": 0.9283015122877929,
+        "direct_variance": 0.0001815658688568863,
+        "matrix_variance": 0.00018156586885688627
+      }
+    },
+    "minimum_variance": {
+      "weights": [
+        0.7,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "return": 0.06540814782513912,
+      "volatility": 0.04853576208721095,
+      "reserve_weight": 0.7,
+      "grid_mixes": 1771,
+      "feasible_mixes": 287
+    },
+    "equity_return_minus1pp": {
+      "weights": [
+        0.65,
+        0.0,
+        0.0,
+        0.35
+      ],
+      "return": 0.06661772958828913,
+      "volatility": 0.056429721424356004,
+      "reserve_weight": 0.65,
+      "grid_mixes": 1771,
+      "feasible_mixes": 234
+    },
+    "largest_onepoint_change_pp": 4.999999999999999,
+    "last36_minimum_variance": {
+      "weights": [
+        0.85,
+        0.0,
+        0.0,
+        0.15
+      ],
+      "return": 0.0694107583822287,
+      "volatility": 0.019681491499431176,
+      "reserve_weight": 0.85,
+      "grid_mixes": 1771,
+      "feasible_mixes": 1069
+    },
+    "largest_window_change_pp": 15.000000000000002,
+    "IG_equity_corr050_status": "EXECUTED",
+    "IG_equity_corr050": {
+      "weights": [
+        0.7,
+        0.0,
+        0.0,
+        0.3
+      ],
+      "return": 0.06540814782513912,
+      "volatility": 0.04853576208721095,
+      "reserve_weight": 0.7,
+      "grid_mixes": 1771,
+      "feasible_mixes": 287
+    },
+    "known_covariance_practice": {
+      "x": [
+        0.01,
+        0.02,
+        -0.01,
+        0.03,
+        0.0
+      ],
+      "y": [
+        0.0,
+        0.01,
+        -0.02,
+        0.02,
+        -0.01
+      ],
+      "sample_covariance": 0.00025,
+      "expected": 0.00025,
+      "student_independent_completion": "NOT CLAIMED"
+    },
+    "checks": {
+      "weight_sums": true,
+      "long_only": true,
+      "covariance_symmetry_psd": true,
+      "direct_variance_identity": true,
+      "elementary_known_answer": true
+    },
+    "official_course_known_answers": "NOT VERIFIED: actual table not supplied",
+    "adoption": "REJECT deployment: practice-only proxy inputs and full mandate constraints unverified"
+  },
+  "student_confirmations": {
+    "date": "2026-10-22",
+    "meridian": "Bernat explicitly confirms Meridian verified. Recorded as student confirmation; source course table and independent run evidence were not supplied to the assistant.",
+    "project2": "Bernat explicitly confirms the Project2 mandate verified: VTI/BND/SGOV,6.5% annual return objective,at least3%SGOVreserve; earlier proposed status superseded by student confirmation.",
+    "github": "Bernat explicitly states he will update GitHub himself. No upload/submission by assistant.",
+    "scope": "Does not assert instructor/CIO endorsement or personal/partner activities not specifically confirmed.",
+    "personal_drawing": "Bernat explicitly confirms the personal drawing happened.",
+    "code_explanation": "Bernat explicitly confirms the code explanation happened.",
+    "partner_attack": "Bernat explicitly confirms the partner attack happened; partner works on Accenture. Partner name, exact changed estimate/values, question and response were not supplied. Do not infer these from earlier Lab10/11 Accenture exchanges or assistant-run VTI stress.",
+    "partner_universe": [
+      "BIL",
+      "IEF",
+      "LQD",
+      "VT"
+    ],
+    "partner_change": "Bernat reports partner also changed an estimate by one percentage point. Exact fund/estimate, direction, original value and resulting allocations are not yet supplied. Partner was previously described as working on Accenture; do not conflate that company project with this portfolio universe.",
+    "final_partner_writeup": "Completed first-person qualitative review using confirmed BIL/IEF/LQD/VT universe and one-percentage-point estimate change. Quantitative response uses Bernat\u2019s own executed VTI stress, explicitly not partner results. No exact partner input/direction/outcome inferred. Bernat asked to finish without further questions."
+  }
+}
