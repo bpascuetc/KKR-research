@@ -1,0 +1,172 @@
+{
+  "download_date": "2026-10-29",
+  "own_series": "DGS2",
+  "sources": [
+    {
+      "file": "BAA_current.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA",
+      "downloaded_utc": "2026-10-29T20:43:28.786884+00:00",
+      "sha256": "3396297d0b2f8f4e8bb467207286c33c04d97bfe37b25bc5a97da6bafc615e93",
+      "observations": 1293
+    },
+    {
+      "file": "FEDFUNDS_current.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS",
+      "downloaded_utc": "2026-10-29T20:43:28.786278+00:00",
+      "sha256": "74680b2d09bb28f90fb30c1c09e93ac2d443de1b7345ba5a9112b3eca9be0a25",
+      "observations": 867
+    },
+    {
+      "file": "DGS10_current.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "downloaded_utc": "2026-10-29T20:43:28.789158+00:00",
+      "sha256": "f3b6b3956f888551c21cfbae007f157bb6433b4db8f557bd7a08b9eb8fd5a97b",
+      "observations": 16191
+    },
+    {
+      "file": "MORTGAGE30US_current.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MORTGAGE30US",
+      "downloaded_utc": "2026-10-29T20:43:28.788185+00:00",
+      "sha256": "580c7d824e6dce4a3d4fa92ed9954df512c6da63992b073c1fafccc88886fa8d",
+      "observations": 2901
+    },
+    {
+      "file": "PAYEMS_current.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PAYEMS",
+      "downloaded_utc": "2026-10-29T20:43:28.962508+00:00",
+      "sha256": "c8c429818ed73de6db985f4ff565d64bd2a5ba66a6b651b39373a1532924fc0e",
+      "observations": 1053
+    },
+    {
+      "file": "DGS2_current.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2",
+      "downloaded_utc": "2026-10-29T20:43:28.998508+00:00",
+      "sha256": "f41850fd89160bc5d71e28e92dca5368f191c83f31c6c24c7f4092255afd1991",
+      "observations": 12599
+    },
+    {
+      "file": "BAA_2026-10-05.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-10-05",
+      "downloaded_utc": "2026-10-29T20:43:29.023588+00:00",
+      "sha256": "e3fe82586d1e1e68213e3cfdfe617edef53cca499e924b6128383b87ec67574f",
+      "observations": 1293
+    },
+    {
+      "file": "FEDFUNDS_2026-10-05.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=FEDFUNDS&vintage_date=2026-10-05",
+      "downloaded_utc": "2026-10-29T20:43:29.025912+00:00",
+      "sha256": "0be19cae2cc266d5510e7313755176585eace91fc76df3a740c42e9c6ec154b4",
+      "observations": 867
+    },
+    {
+      "file": "DGS10_2026-10-05.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS10&vintage_date=2026-10-05",
+      "downloaded_utc": "2026-10-29T20:43:29.210446+00:00",
+      "sha256": "a07555e255b7008f245f4916a7d63f48fe42c32391d8f17c6ef2f88c66d94c77",
+      "observations": 16174
+    },
+    {
+      "file": "MORTGAGE30US_2026-10-05.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=MORTGAGE30US&vintage_date=2026-10-05",
+      "downloaded_utc": "2026-10-29T20:43:29.213470+00:00",
+      "sha256": "daa52be8152857ff95b5b294c1636641a505b4c4f6478c8517fd6a9c13a73ac2",
+      "observations": 2897
+    },
+    {
+      "file": "PAYEMS_2025-01-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=PAYEMS&vintage_date=2025-01-15",
+      "downloaded_utc": "2026-10-29T20:43:29.170536+00:00",
+      "sha256": "bec09410296be0d95360ac75ee21d2ab2164e1eb46b0822f9ad2dbf1c6477000",
+      "observations": 1032
+    },
+    {
+      "file": "DGS2_2026-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2&vintage_date=2026-09-30",
+      "downloaded_utc": "2026-10-29T20:43:29.506818+00:00",
+      "sha256": "cafe9d088a7dd2810ded215a5a64c457e2293b30d3aeb7e6c7e27c1e93f8a920",
+      "observations": 12579
+    },
+    {
+      "file": "DGS2_2026-10-29.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2&vintage_date=2026-10-29",
+      "downloaded_utc": "2026-10-29T20:43:31.786905+00:00",
+      "sha256": "3060978481d9abad4f58949bbcaf3353b998ce3c0577bd5e49f23cb7b8708831",
+      "observations": 12599
+    }
+  ],
+  "anchors": [
+    {
+      "series": "BAA",
+      "expected_date": "2026-09-01",
+      "expected_value": 6.47,
+      "actual_date": "2026-09-01",
+      "actual_value": 6.47,
+      "pass": true
+    },
+    {
+      "series": "FEDFUNDS",
+      "expected_date": "2026-09-01",
+      "expected_value": 3.75,
+      "actual_date": "2026-09-01",
+      "actual_value": 3.75,
+      "pass": true
+    },
+    {
+      "series": "DGS10",
+      "expected_date": "2026-10-02",
+      "expected_value": 5.28,
+      "actual_date": "2026-10-02",
+      "actual_value": 5.28,
+      "pass": true
+    },
+    {
+      "series": "MORTGAGE30US",
+      "expected_date": "2026-10-01",
+      "expected_value": 7.28,
+      "actual_date": "2026-10-01",
+      "actual_value": 7.28,
+      "pass": true
+    }
+  ],
+  "own_series_comparisons": [
+    {
+      "Series": "DGS2",
+      "FRED page": "https://fred.stlouisfed.org/series/DGS2",
+      "Last measured, as known": "2026-09-29 00:00:00",
+      "Value, as known": 4.89,
+      "Last measured, current": "2026-10-28 00:00:00",
+      "Value, current": 4.67,
+      "Later observations": 20,
+      "Revised common dates": 0,
+      "Common dates compared": 1687,
+      "as_known": "2026-09-30"
+    },
+    {
+      "Series": "DGS2",
+      "FRED page": "https://fred.stlouisfed.org/series/DGS2",
+      "Last measured, as known": "2026-10-28 00:00:00",
+      "Value, as known": 4.67,
+      "Last measured, current": "2026-10-28 00:00:00",
+      "Value, current": 4.67,
+      "Later observations": 0,
+      "Revised common dates": 0,
+      "Common dates compared": 1707,
+      "as_known": "2026-10-29"
+    }
+  ],
+  "PAYEMS_probe": {
+    "Series": "PAYEMS",
+    "FRED page": "https://fred.stlouisfed.org/series/PAYEMS",
+    "Last measured, as known": "2024-12-01 00:00:00",
+    "Value, as known": 159536.0,
+    "Last measured, current": "2026-09-01 00:00:00",
+    "Value, current": 159044.0,
+    "Later observations": 21,
+    "Revised common dates": 59,
+    "Common dates compared": 60,
+    "December 2024, vintage": 159536.0,
+    "December 2024, current": 158316.0,
+    "pass": true
+  },
+  "all_required_live_checks_pass": true
+}
