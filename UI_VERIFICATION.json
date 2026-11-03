@@ -1,0 +1,7 @@
+{
+  "source": "actual downloaded COST/JPM SEC snapshots",
+  "COST_chart_table_memo_render": "pass",
+  "hand_typed_40_percent_flag": "pass",
+  "JPM_missing_data_and_memo_render": "pass",
+  "method": "Streamlit AppTest; not a browser visual review"
+}

@@ -1,0 +1,11 @@
+{
+  "COST_anchor_matches": true,
+  "COST_differences": [],
+  "COST_checks_all_pass": true,
+  "JPM_capex_missing_all_years": true,
+  "JPM_owner_earnings_missing_all_years": true,
+  "JPM_owner_checks_unknown": true,
+  "COST_memo_unsupported_numbers": [],
+  "JPM_memo_unsupported_numbers": [],
+  "injected_40_percent_flagged": true
+}
