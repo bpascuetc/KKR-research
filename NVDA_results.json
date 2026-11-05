@@ -1,0 +1,342 @@
+{
+  "ticker": "NVDA",
+  "entity": "NVIDIA CORP",
+  "cik": 1045810,
+  "rows": [
+    {
+      "fiscal_year_end": "2022-01-30",
+      "revenue": 26914000000,
+      "net_income": 9752000000,
+      "operating_cash_flow": 9108000000,
+      "capital_spending": 976000000,
+      "equity": 26612000000,
+      "roe_percent": 36.64512250112731,
+      "owner_earnings": 8132000000,
+      "sources": {
+        "revenue": {
+          "val": 26914000000,
+          "start": "2021-02-01",
+          "end": "2022-01-30",
+          "filed": "2022-03-18",
+          "accn": "0001045810-22-000036",
+          "form": "10-K",
+          "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD"
+        },
+        "net_income": {
+          "val": 9752000000,
+          "start": "2021-02-01",
+          "end": "2022-01-30",
+          "filed": "2024-02-21",
+          "accn": "0001045810-24-000029",
+          "form": "10-K",
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD"
+        },
+        "operating_cash_flow": {
+          "val": 9108000000,
+          "start": "2021-02-01",
+          "end": "2022-01-30",
+          "filed": "2024-02-21",
+          "accn": "0001045810-24-000029",
+          "form": "10-K",
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD"
+        },
+        "capital_spending": {
+          "val": 976000000,
+          "start": "2021-02-01",
+          "end": "2022-01-30",
+          "filed": "2024-02-21",
+          "accn": "0001045810-24-000029",
+          "form": "10-K",
+          "tag": "us-gaap:PaymentsToAcquireProductiveAssets",
+          "unit": "USD"
+        },
+        "equity": {
+          "val": 26612000000,
+          "start": null,
+          "end": "2022-01-30",
+          "filed": "2025-02-26",
+          "accn": "0001045810-25-000023",
+          "form": "10-K",
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD"
+        }
+      },
+      "derived_tags": {
+        "roe_percent": "NetIncomeLoss / StockholdersEquity * 100",
+        "owner_earnings": "us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquireProductiveAssets"
+      }
+    },
+    {
+      "fiscal_year_end": "2023-01-29",
+      "revenue": 26974000000,
+      "net_income": 4368000000,
+      "operating_cash_flow": 5641000000,
+      "capital_spending": 1833000000,
+      "equity": 22101000000,
+      "roe_percent": 19.763811592235644,
+      "owner_earnings": 3808000000,
+      "sources": {
+        "revenue": {
+          "val": 26974000000,
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "filed": "2025-02-26",
+          "accn": "0001045810-25-000023",
+          "form": "10-K",
+          "tag": "us-gaap:Revenues",
+          "unit": "USD"
+        },
+        "net_income": {
+          "val": 4368000000,
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "filed": "2025-02-26",
+          "accn": "0001045810-25-000023",
+          "form": "10-K",
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD"
+        },
+        "operating_cash_flow": {
+          "val": 5641000000,
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "filed": "2025-02-26",
+          "accn": "0001045810-25-000023",
+          "form": "10-K",
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD"
+        },
+        "capital_spending": {
+          "val": 1833000000,
+          "start": "2022-01-31",
+          "end": "2023-01-29",
+          "filed": "2025-02-26",
+          "accn": "0001045810-25-000023",
+          "form": "10-K",
+          "tag": "us-gaap:PaymentsToAcquireProductiveAssets",
+          "unit": "USD"
+        },
+        "equity": {
+          "val": 22101000000,
+          "start": null,
+          "end": "2023-01-29",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD"
+        }
+      },
+      "derived_tags": {
+        "roe_percent": "NetIncomeLoss / StockholdersEquity * 100",
+        "owner_earnings": "us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquireProductiveAssets"
+      }
+    },
+    {
+      "fiscal_year_end": "2024-01-28",
+      "revenue": 60922000000,
+      "net_income": 29760000000,
+      "operating_cash_flow": 28090000000,
+      "capital_spending": 1069000000,
+      "equity": 42978000000,
+      "roe_percent": 69.24472986178975,
+      "owner_earnings": 27021000000,
+      "sources": {
+        "revenue": {
+          "val": 60922000000,
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:Revenues",
+          "unit": "USD"
+        },
+        "net_income": {
+          "val": 29760000000,
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD"
+        },
+        "operating_cash_flow": {
+          "val": 28090000000,
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD"
+        },
+        "capital_spending": {
+          "val": 1069000000,
+          "start": "2023-01-30",
+          "end": "2024-01-28",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:PaymentsToAcquireProductiveAssets",
+          "unit": "USD"
+        },
+        "equity": {
+          "val": 42978000000,
+          "start": null,
+          "end": "2024-01-28",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD"
+        }
+      },
+      "derived_tags": {
+        "roe_percent": "NetIncomeLoss / StockholdersEquity * 100",
+        "owner_earnings": "us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquireProductiveAssets"
+      }
+    },
+    {
+      "fiscal_year_end": "2025-01-26",
+      "revenue": 130497000000,
+      "net_income": 72880000000,
+      "operating_cash_flow": 64089000000,
+      "capital_spending": 3236000000,
+      "equity": 79327000000,
+      "roe_percent": 91.87288060811576,
+      "owner_earnings": 60853000000,
+      "sources": {
+        "revenue": {
+          "val": 130497000000,
+          "start": "2024-01-29",
+          "end": "2025-01-26",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:Revenues",
+          "unit": "USD"
+        },
+        "net_income": {
+          "val": 72880000000,
+          "start": "2024-01-29",
+          "end": "2025-01-26",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD"
+        },
+        "operating_cash_flow": {
+          "val": 64089000000,
+          "start": "2024-01-29",
+          "end": "2025-01-26",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD"
+        },
+        "capital_spending": {
+          "val": 3236000000,
+          "start": "2024-01-29",
+          "end": "2025-01-26",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:PaymentsToAcquireProductiveAssets",
+          "unit": "USD"
+        },
+        "equity": {
+          "val": 79327000000,
+          "start": null,
+          "end": "2025-01-26",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD"
+        }
+      },
+      "derived_tags": {
+        "roe_percent": "NetIncomeLoss / StockholdersEquity * 100",
+        "owner_earnings": "us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquireProductiveAssets"
+      }
+    },
+    {
+      "fiscal_year_end": "2026-01-25",
+      "revenue": 215938000000,
+      "net_income": 120067000000,
+      "operating_cash_flow": 102718000000,
+      "capital_spending": 6042000000,
+      "equity": 157293000000,
+      "roe_percent": 76.33333969089534,
+      "owner_earnings": 96676000000,
+      "sources": {
+        "revenue": {
+          "val": 215938000000,
+          "start": "2025-01-27",
+          "end": "2026-01-25",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:Revenues",
+          "unit": "USD"
+        },
+        "net_income": {
+          "val": 120067000000,
+          "start": "2025-01-27",
+          "end": "2026-01-25",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:NetIncomeLoss",
+          "unit": "USD"
+        },
+        "operating_cash_flow": {
+          "val": 102718000000,
+          "start": "2025-01-27",
+          "end": "2026-01-25",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD"
+        },
+        "capital_spending": {
+          "val": 6042000000,
+          "start": "2025-01-27",
+          "end": "2026-01-25",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:PaymentsToAcquireProductiveAssets",
+          "unit": "USD"
+        },
+        "equity": {
+          "val": 157293000000,
+          "start": null,
+          "end": "2026-01-25",
+          "filed": "2026-02-25",
+          "accn": "0001045810-26-000021",
+          "form": "10-K",
+          "tag": "us-gaap:StockholdersEquity",
+          "unit": "USD"
+        }
+      },
+      "derived_tags": {
+        "roe_percent": "NetIncomeLoss / StockholdersEquity * 100",
+        "owner_earnings": "us-gaap:NetCashProvidedByUsedInOperatingActivities - us-gaap:PaymentsToAcquireProductiveAssets"
+      }
+    }
+  ],
+  "checks": {
+    "ROE at least 15% every year": "pass",
+    "Owner earnings positive every year": "pass",
+    "Owner earnings grew first to last": "pass"
+  }
+}

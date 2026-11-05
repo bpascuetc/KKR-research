@@ -1,16 +1,18 @@
-# Lab18 — build request and source rules
+# Lab19 — build request and source record
 
-Request prepared with Codex from Bernat's supplied assignment, rather than claimed as unaided writing:
+Bernat supplied the superseding November Legend Panel assignment. This implementation request is AI-assisted, based on that assignment:
 
-> Build a discoverable Codex skill called buffett-edgar and a Streamlit app. Read Buffett's FAskills page for philosophy only; never install its software or use its data sources. Download ticker-to-CIK and companyfacts JSON directly from SEC EDGAR with my name and real email in the User-Agent. Select the last five fiscal-year-end dates, only annual USD 10-K flows and year-end equity, applying the assignment's exact tags, ordered fallbacks and latest-filing rule. Compute ROE, the lab owner-earnings proxy and its three checks in Python. Print provenance and missing-data labels. Use only printed numbers to write a short Buffett-inspired business-quality memo, without price data. Chart owner earnings and net income, show the table/checks/memo, and flag every memo number absent from the printed output. Verify the COST known answer without hard-coding it into extraction, probe JPM's missing capex and inject an unsupported ROE. Preserve raw downloads and test evidence. Prepare files for my GitHub upload.
+> Extend my working Lab18 app and preserve its extraction, tables, owner-earnings chart, number audit and saved Buffett judgments. Add separate Cathie Wood and Burry skills based on their FAskills pages, applying the lab's exact coded checks to one shared five-year SEC dataset. Add only the prescribed Liabilities and ResearchAndDevelopmentExpense tags. Compute endpoint revenue CAGR over four intervals. Display the seven checks, each investor's saved verdict and three side-by-side memos; flag unprinted numbers in every memo. Reproduce COST without feeding anchors into extraction, change the growth threshold inside Cathie's skill to five percent and restore the chosen default. Use my Project2 fund's largest company and preserve every source gap. Prepare a code walkthrough, bull/bear discussion preparation, conditional trust decision and upload package without inventing personal participation or submissions.
 
-Sources read:
+## Sources used
 
-- [Buffett philosophy](https://github.com/CinderZhang/FAskills/blob/main/financial-researcher/experts/warren_buffett.md): business durability and owner cash guide the qualitative judgment. The lab formula takes precedence over the source's broader maintenance-capex formulation. No FAskills installation, prices or paid feeds.
-- [Codex skills documentation](https://developers.openai.com/codex/skills): manifest, progressive disclosure, local discovery and explicit invocation. The page currently redirects to ChatGPT Learn; its location table includes `~/.agents/skills` and project `.agents/skills`.
-- [SEC APIs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces): keyless companyfacts data and original filing provenance.
-- [Streamlit chart API](https://docs.streamlit.io/develop/api-reference/charts/st.line_chart): chart rendering from the computed dataset.
+- [Cathie Wood philosophy](https://github.com/CinderZhang/FAskills/blob/main/financial-researcher/experts/cathie_wood.md): growth and innovation/reinvestment lens.
+- [Michael Burry philosophy](https://github.com/CinderZhang/FAskills/blob/main/financial-researcher/experts/michael_burry.md): skepticism about cash backing and balance-sheet risk.
+- [SEC companyfacts API](https://www.sec.gov/search-filings/edgar-application-programming-interfaces): raw facts and filing provenance.
+- [Streamlit columns](https://docs.streamlit.io/develop/api-reference/layout/st.columns): three-column display.
+- Lab18 original raw COST/JPM SEC downloads, source hashes, extractor and Buffett memos; these were copied, not refreshed.
+- `../../Lab15/2026-10-22/updated_app/project2_mandate.json`: existing student-confirmed VTI/BND/SGOV Project2 universe.
 
-The supplied prework page has a relative URL only; its contents were not provided or independently located. No claim that the prework was read is made.
+Only the FAskills philosophy pages were read. Their broader prompts for forecasts, prices, holdings, numerical scores and actual-investor impersonation are outside this lab's scope. FAskills software was not installed. The two new skills are adaptations, not claims of verbatim upstream installation. The superseded trading-strategy lab was not used.
 
 I am a student, not a financial professional. This document was prepared for FIN 43900 (AI Finance Applications, Purdue) as a class learning exercise. It is not professional investment research or financial advice. I used OpenAI Codex to help with research, analysis, calculations, and drafting. Any remaining errors are my own.

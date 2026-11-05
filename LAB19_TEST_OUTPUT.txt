@@ -1,0 +1,23 @@
+test_render_probe_and_bank_missing_data (test_lab18.AppTests.test_render_probe_and_bank_missing_data) ... 2026-11-05 16:50:58.842 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:181: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:181: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:181: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+ok
+test_fiscal_ends_not_filing_fy_and_latest_revision (test_lab18.ExtractionTests.test_fiscal_ends_not_filing_fy_and_latest_revision) ... ok
+test_nonpositive_equity_and_missing_middle_year (test_lab18.ExtractionTests.test_nonpositive_equity_and_missing_middle_year) ... ok
+test_number_audit (test_lab18.ExtractionTests.test_number_audit) ... ok
+test_priority_fallback_and_missing_capex (test_lab18.ExtractionTests.test_priority_fallback_and_missing_capex) ... ok
+test_tag_priority_and_formula (test_lab18.ExtractionTests.test_tag_priority_and_formula) ... ok
+test_actual_cost_three_memos_each_flagged_and_probe (test_lab19.ActualAppTests.test_actual_cost_three_memos_each_flagged_and_probe) ... 2026-11-05 16:51:03.567 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_actual_nvda_panel_memos_and_cash_failure (test_lab19.ActualAppTests.test_actual_nvda_panel_memos_and_cash_failure) ... 2026-11-05 16:51:06.761 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_cost_known_answer_and_probe (test_lab19.PanelTests.test_cost_known_answer_and_probe) ... ok
+test_memos_and_stale_binding (test_lab19.PanelTests.test_memos_and_stale_binding) ... ok
+test_missing_inputs_zero_denominators_and_boundaries (test_lab19.PanelTests.test_missing_inputs_zero_denominators_and_boundaries) ... ok
+test_new_tags_annual_instant_latest_filing (test_lab19.PanelTests.test_new_tags_annual_instant_latest_filing) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 10.981s
+
+OK

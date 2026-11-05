@@ -99,7 +99,7 @@ class AppTests(unittest.TestCase):
                 (root / f'evidence/{ticker}_companyfacts.json').write_text(json.dumps(facts))
                 result = run(ticker, root / 'evidence', offline=True)
                 (root / f'memos/{ticker}_memo.md').write_text('Buffett-inspired synthetic test: watch it.')
-            source = (ROOT / 'app.py').read_text().replace('ROOT = Path(__file__).resolve().parent', f'ROOT = Path({str(root)!r})')
+            source = (ROOT / 'lab18_app.py').read_text().replace('ROOT = Path(__file__).resolve().parent', f'ROOT = Path({str(root)!r})')
             app = AppTest.from_string(source).run(timeout=30)
             self.assertEqual(list(app.exception), [])
             self.assertEqual(len(app.get('vega_lite_chart')), 1)

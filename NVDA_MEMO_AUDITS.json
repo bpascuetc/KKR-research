@@ -1,0 +1,17 @@
+{
+  "Buffett": {
+    "memo_exists": true,
+    "unsupported_numbers": [],
+    "current": true
+  },
+  "Cathie Wood": {
+    "memo_exists": true,
+    "unsupported_numbers": [],
+    "current": true
+  },
+  "Burry": {
+    "memo_exists": true,
+    "unsupported_numbers": [],
+    "current": true
+  }
+}

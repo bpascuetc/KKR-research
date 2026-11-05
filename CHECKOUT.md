@@ -1,28 +1,27 @@
-# Lab18 — completion evidence
+# Lab19 — checkout status
 
-Bernat Pascuet Cuesta · November 3, 2026
+Bernat Pascuet Cuesta · November 5, 2026
 
-Question: Can an investor's philosophy become a repeatable skill, with code calculating and the model judging? The extraction, formulas and tests can be made reproducible for a fixed source snapshot. The qualitative verdict remains a model judgment and needs human review.
+## Completed technical evidence
 
-## Technical record
+- Opened the Lab18 COST app through Streamlit AppTest before extending it; original three Buffett checks pass.
+- Added and validated Cathie Wood and Burry skills; all three reuse shared Lab18 SEC facts and exact rules.
+- COST matches all supplied fiscal dates, leverage ratios and annual growth. Buffett passes every check; Cathie Wood growth fails and R&D stays unknown; Burry passes both checks.
+- Three COST memos are saved, shown side by side, bound to the analyzed facts/configuration and free of unprinted numbers.
+- Changed the growth threshold within Cathie's skill config to five percent, executed the probe, preserved its output and restored fifteen percent. Growth changes to pass, while R&D stays unknown. Bernat approved the AI-enhanced kept threshold line.
+- Twelve behavioral tests pass, including original Lab18 regressions, the actual COST and NVDA three-memo UI, an injected unprinted ROE in each COST memo, the threshold probe and JPM missing-data rendering. Both new skill validators pass. The independent COST verifier passes every comparison. Synthetic edge cases are separate from SEC evidence.
+- Browser connection setup and troubleshooting returned no connected browsers. AppTest verifies behavior; no visual browser review is claimed.
 
-- Skill and app implemented; skill linked into Codex's user discovery directory.
-- The Codex skill validator passes.
-- All six tests pass: extraction edge cases and a Streamlit AppTest that renders the chart, injects the unsupported 40.0% warning and switches to a synthetic bank with missing capex. These temporary synthetic cases prove behavior, not live COST/JPM agreement. No browser visual review is claimed.
-- Live COST and JPM companyfacts were downloaded directly from SEC using Bernat's supplied name/email. Raw responses, URL/retrieval/hash metadata and selected tag/accession evidence are saved. Every COST known-answer cell matches, and all Buffett checks pass. JPM capex and owner earnings stay “not found”; its two owner-earnings checks stay “not known”.
-- Read the script output and wrote COST/JPM Buffett-inspired memos. Both numeric audits pass with no unsupported values. COST is provisionally “own the business”; JPM is “watch it” and explicitly cannot judge owner earnings. The hand-typed 40.0% probe is flagged in the actual app. Bernat explicitly approved the AI-enhanced COST trust decision; its wording is now final.
-- Actual-data Streamlit AppTest verifies chart/table/memo rendering, manual number injection and the JPM warning/checks. Browser connection discovery returned no available browser for assistant visual review. Bernat subsequently supplied the separate browser-AI response; its financial table is compared in BROWSER_COMPARISON.md.
+## Selected company completed
 
-## Student confirmation and checkout
+The saved Project2 mandate establishes VTI/BND/SGOV. VTI's indexed official holdings table establishes NVDA as the selected company at its disclosed date. Bernat supplied the SEC contact email, and NVIDIA companyfacts were downloaded directly with the named User-Agent after sandbox network escalation. Raw source URL, timestamp and hash are retained; the contact is not hardcoded in the public app.
 
-Bernat explicitly confirms all Lab18 partner activities are complete. This covers the opener/swap, no-AI line-by-line explanation/question, skill-learning discussion and reflection. The prepared walkthrough is supporting material, not a fabricated transcript. Exact partner questions, quotes and name were not supplied and are not invented.
+NVIDIA's Buffett checks all pass. Cathie Wood passes both checks, with annual revenue growth of 68.30% and latest R&D/revenue of 8.57%. Burry's every-year OCF-versus-income check fails, while latest liabilities/equity passes at 0.31. Every field comes from the prescribed SEC tags; missing values would remain missing. Three NVIDIA investor memos pass numeric and current-evidence checks and render in the actual app. Company-specific two-sentence bull/bear arguments and a condition tied to that cash-backing failure are written in DISCUSSION_PREPARATION.md and the report.
 
-Bernat will handle GitHub submission. No GitHub upload, Brightspace quiz attempt or submission receipt is claimed here. Use the refreshed `Lab18/upload to github` folder or `Lab18_GITHUB_READY.zip`; include the hidden `.agents` folder so the skill travels with its script.
+## Student activity and decision
 
-The separate fresh-browser-AI response is now supplied and compared in `BROWSER_COMPARISON.md`. All displayed fiscal dates, net-income/equity inputs and rounded ROEs match the saved SEC results. The external answer cites broader sources, including an earnings release and third-party pages; agreement does not establish strict compliance with the lab's source rules or independently authenticate its citations. Its historical and explanatory claims are not imported into the constrained memo. Bernat explicitly approves the COST trust-decision line. The previously pending decision review and browser comparison are complete.
+Bernat confirms completion of the Lab19 no-screen opener, no-AI line-by-line explanation and swap, partner bull/bear discussion, teaching/learning discussion and reflection. He approves keeping the 15% growth threshold and the AI-enhanced conditional trust decision: use the panel to shortlist companies, with human review of NVIDIA's earnings-to-cash divergence, business risks and valuation before acting. This records student confirmation; no exact oral wording, partner quotation or independent observation is invented.
 
-## Reflection preparation
-
-The skill fixes the admissible source, period selection, tag preference, arithmetic and check rules for the same downloaded facts. It leaves the business verdict and interpretation of evidence to the model. A numerical screen is supporting evidence rather than proof of a durable franchise. “Not found” reveals the source limitation and prevents an estimate from masquerading as a filed fact. Keeping raw SEC JSON and accession metadata makes a disputed value inspectable.
+No Brightspace quiz attempt, GitHub upload or submission is claimed. Bernat handles GitHub and Brightspace. The technical and written package is ready for GitHub. The requested preparation and student-confirmed activities are complete. No quiz attempt or external submission receipt has been supplied.
 
 I am a student, not a financial professional. This document was prepared for FIN 43900 (AI Finance Applications, Purdue) as a class learning exercise. It is not professional investment research or financial advice. I used OpenAI Codex to help with research, analysis, calculations, and drafting. Any remaining errors are my own.

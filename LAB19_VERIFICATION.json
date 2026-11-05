@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "fiscal_ends_match": true,
+    "liabilities_ratios_match": true,
+    "rd_missing_all_years": true,
+    "growth_matches": true,
+    "buffett_checks_match": true,
+    "wood_checks_match": true,
+    "burry_checks_match": true,
+    "skill_config_probe_matches": true,
+    "probe_facts_unchanged": true,
+    "kept_threshold_restored": true,
+    "memos_current_and_supported": true
+  },
+  "all_pass": true,
+  "memo_audits": {
+    "Buffett": {
+      "memo_exists": true,
+      "unsupported_numbers": [],
+      "current": true
+    },
+    "Cathie Wood": {
+      "memo_exists": true,
+      "unsupported_numbers": [],
+      "current": true
+    },
+    "Burry": {
+      "memo_exists": true,
+      "unsupported_numbers": [],
+      "current": true
+    }
+  },
+  "raw_sha256": "b675ced201b27ede2b0d26ca6fd873befe96a1afa9679339a2d0b964187dcdff",
+  "source": "Archived direct SEC download retained from Lab18; no new download claimed."
+}
